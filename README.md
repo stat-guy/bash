@@ -29,6 +29,14 @@
 
 ## ⚡ Quick Setup
 
+### **For Claude Code Users (10 seconds)**
+```bash
+git clone https://github.com/stat-guy/bash.git
+cd bash && npm install && pip3 install mcp pydantic
+claude mcp add bash node /ABSOLUTE/PATH/TO/bash/mcp-bash-wrapper.js
+```
+**Replace `/ABSOLUTE/PATH/TO/` with your actual folder path!**
+
 ### **For Experts (30 seconds)**
 ```bash
 git clone https://github.com/stat-guy/bash.git
