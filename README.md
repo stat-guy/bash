@@ -105,24 +105,8 @@ You should see: `MCP server ready`
 #### 5. Restart Claude Desktop
 Completely quit and restart Claude Desktop to load the new server.
 
-## 🔧 Advanced Configuration
+## 🔧 Session Configuration
 
-### **Python-only Setup (Alternative)**
-```json
-{
-  "mcpServers": {
-    "bash": {
-      "command": "python3",
-      "args": ["-m", "mcp_bash_server.server"],
-      "env": {
-        "PYTHONPATH": "/ABSOLUTE/PATH/TO/bash/src"
-      }
-    }
-  }
-}
-```
-
-### **Session Configuration**
 The server automatically manages sessions with these defaults:
 - **Session timeout**: 1 hour of inactivity
 - **Cleanup interval**: Every 5 minutes  
