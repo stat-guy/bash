@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "bash": {
+      "command": "python3",
+      "args": [
+        "-m", 
+        "mcp_bash_server.server"
+      ],
+      "env": {
+        "PYTHONPATH": "/ABSOLUTE/PATH/TO/bash/src"
+      }
+    }
+  }
+}
