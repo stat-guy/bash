@@ -1,0 +1,21 @@
+{
+  "name": "mcp-bash-server",
+  "version": "1.0.0",
+  "description": "MCP Bash Server - Node.js wrapper for Python implementation",
+  "main": "mcp-bash-wrapper.js",
+  "bin": {
+    "mcp-bash-server": "./mcp-bash-wrapper.js"
+  },
+  "scripts": {
+    "install-deps": "pip3 install mcp pydantic",
+    "start": "node mcp-bash-wrapper.js",
+    "test": "python3 -c 'import sys; sys.path.insert(0, \"src\"); from mcp_bash_server.server import main; print(\"MCP server ready\")'"
+  },
+  "keywords": ["mcp", "bash", "shell", "server"],
+  "author": "MCP Bash Server Contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.10"
+  }
+}
