@@ -2,7 +2,7 @@
   "mcpServers": {
     "bash": {
       "command": "node",
-      "args": ["path/to/bash/mcp-bash-wrapper.js"]
+      "args": ["/REPLACE/WITH/ABSOLUTE/PATH/TO/mcp-bash-wrapper.js"]
     }
   }
 }
